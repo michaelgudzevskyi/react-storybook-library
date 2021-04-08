@@ -45,8 +45,8 @@ jobs:
     needs: build
     env:
       DEPLOY_TOKEN: ${{secrets.deploy_token}}
-      USER_NAME: andy770921
-      USER_EMAIL: andy770921@yahoo.com.tw
+      USER_NAME: michaelgudzevskyi
+      USER_EMAIL: gudzevatyi@gmail.com
     
     steps:
     - name: Download demo site
