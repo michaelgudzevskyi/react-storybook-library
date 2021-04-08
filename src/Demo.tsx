@@ -5,7 +5,7 @@
 import { Button } from './index';
 
 const Demo = () => {
-    return <Button>rendered button for dev</Button>;
+    return <Button>Rendered button for dev</Button>;
 };
 
 export default Demo;

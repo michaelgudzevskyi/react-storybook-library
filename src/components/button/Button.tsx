@@ -32,7 +32,7 @@ type CustomNodeProps = {
 
 export type ButtonProps = HTMLButtonProps & HTMLAnchorProps & CustomNodeProps;
 
-const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = (props, ref) => {
+const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = props => {
     const { type = 'default', size = 'default', className, children, disabled = false, loading, onClick } = props;
 
     const styles = {
@@ -50,13 +50,3 @@ const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = (props, ref
 };
 
 export default React.forwardRef<unknown, ButtonProps>(Button);
-
-// import { FC, MouseEventHandler } from 'react';
-
-// const MyButton: FC<{ onClick?: MouseEventHandler<HTMLButtonElement> }> = ({ children, onClick }) => (
-//     <button type="button" onClick={onClick}>
-//         {children}
-//     </button>
-// );
-
-// export default MyButton;
