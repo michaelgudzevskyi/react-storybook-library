@@ -49,12 +49,12 @@
 
 ```ts
 // TypsScript
-import React, { FC } from 'react';
-import { MyButton } from 'react-storybook-library';
+import { FC } from 'react';
+import { Button } from 'react-storybook-library';
 
 const MyComponent: FC = () => (
     <div>
-        <MyButton>My Button</MyButton>
+        <Button>My Button</Button>
     </div>
 );
 

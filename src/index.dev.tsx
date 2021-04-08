@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom';
-import { MyButton } from './index';
+import Demo from './Demo';
 
-ReactDOM.render(<MyButton>rendered button for dev</MyButton>, document.querySelector('#root'));
+ReactDOM.render(<Demo />, document.querySelector('#root'));

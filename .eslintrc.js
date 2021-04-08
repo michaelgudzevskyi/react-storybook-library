@@ -44,6 +44,7 @@ module.exports = {
         'promise/catch-or-return': 'error',
         'promise/no-native': 'off',
         'promise/no-nesting': 'off',
+        "react/jsx-props-no-spreading": "off",
         'promise/no-callback-in-promise': [
             'error',
             {
