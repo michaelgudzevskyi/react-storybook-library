@@ -1,6 +1,6 @@
 {
   "name": "react-storybook-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Template for a React TypeScript npm package",
   "author": "Mykhailo Hudzevatyi @michaelgudzevskyi",
   "private": false,
