@@ -5,7 +5,7 @@
 
 1. storybook: [react-storybook-library](https://michaelgudzevskyi.github.io/react-storybook-library)
 
-2. npm package: To do
+2. npm package: [npmjs react-storybook-library](https://www.npmjs.com/package/react-storybook-library)
 
 ## Features:
 
