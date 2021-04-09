@@ -41,6 +41,10 @@
 
 8. `npm run lint`: use ESLint for manually checking files inside src folder
 
+9. `npm run test`: start jest unit tests
+
+10. `npm run coverage`: start command to see tests coverage
+
 ## Usage for third-party import:
 
 1. `npm i react-storybook-library`
