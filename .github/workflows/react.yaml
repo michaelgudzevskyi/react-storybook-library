@@ -57,8 +57,8 @@ jobs:
     - name: Deploy demo site
       run: |
         git init
-        git config --local user.email $USER_EMAIL
-        git config --local user.name $USER_NAME
+        git config --local user.email gudzevatyi@gmail.com
+        git config --local user.name michaelgudzevskyi
         git remote add origin https://$DEPLOY_TOKEN@github.com/$GITHUB_REPOSITORY.git
         git checkout -b gh-pages
         git add --all
