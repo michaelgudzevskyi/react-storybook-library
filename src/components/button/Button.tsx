@@ -1,4 +1,5 @@
 import React, { ElementType, MouseEventHandler, ReactNode } from 'react';
+import { StyledButton } from './styles';
 
 export type ButtonType = 'default' | 'danger' | 'ghost' | 'secondary';
 
@@ -42,9 +43,9 @@ const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = props => {
     };
 
     return (
-        <button type="button" onClick={onClick} className={className} {...styles}>
+        <StyledButton type="button" onClick={onClick} className={className} {...styles}>
             {loading ? <>Loading</> : children}
-        </button>
+        </StyledButton>
     );
 };
 
