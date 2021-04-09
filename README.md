@@ -1,10 +1,9 @@
 # react-storybook-library
 
-![GitHub Actions Badge](https://github.com/michaelgudzevskyi/react-storybook-library/workflows/Main%20workflow/badge.svg)
 
 ## Demo:
 
-1. storybook: To do
+1. storybook: [react-storybook-library](https://michaelgudzevskyi.github.io/react-storybook-library)
 
 2. npm package: To do
 
@@ -44,6 +43,8 @@
 9. `npm run test`: start jest unit tests
 
 10. `npm run coverage`: start command to see tests coverage
+
+11. `npm run deploy-storybook` this command will create github page
 
 ## Usage for third-party import:
 
