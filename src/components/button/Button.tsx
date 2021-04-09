@@ -33,10 +33,9 @@ type CustomNodeProps = {
 export type ButtonProps = HTMLButtonProps & HTMLAnchorProps & CustomNodeProps;
 
 const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = props => {
-    const { type = 'default', size = 'default', className, children, disabled = false, loading, onClick } = props;
+    const { size = 'default', className, children, disabled = false, loading, onClick } = props;
 
     const styles = {
-        innerType: type,
         size,
         disabled,
         withText: children != null,
