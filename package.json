@@ -1,6 +1,6 @@
 {
   "name": "react-storybook-library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Template for a React TypeScript npm package",
   "author": "Mykhailo Hudzevatyi @michaelgudzevskyi",
   "private": false,
@@ -17,7 +17,7 @@
     "build": "webpack --config webpack.config.prod.js",
     "build-storybook": "build-storybook -c .storybook -o storybook-static",
     "watch": "tsc -w",
-    "clean" : "gh-pages-clean",
+    "clean": "gh-pages-clean",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
