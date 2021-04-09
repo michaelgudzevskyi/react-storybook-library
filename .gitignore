@@ -1,1 +1,14 @@
+# dependencies
 node_modules
+
+# testing
+/coverage
+/test-results
+
+# production
+/build
+/lib
+/dist
+
+# misc
+/.cache

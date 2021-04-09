@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "name": "vscode-jest-tests",
+        "request": "launch",
+        "args": ["--verbose", "-i", "--no-cache", "--runInBand"],
+        "env": { "NODE_ICU_DATA": "node_modules/full-icu", "NODE_ENV": "test" },
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "disableOptimisticBPs": true,
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    ]
+  }
+  

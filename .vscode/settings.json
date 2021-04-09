@@ -2,5 +2,7 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  }
+  },
+  "jest.pathToJest": "npm test --",
+  "jest.debugMode": true
 }
