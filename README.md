@@ -31,7 +31,7 @@
 
 4. `npm run build-storybook`: build index.html in demo folder for static hosting
 
-5. chagne setting in `package.json`
+5. change setting in `package.json`
 
 6. use `npm login` and `npm publish` for publishing to [https://www.npmjs.com/](https://www.npmjs.com/)
 
